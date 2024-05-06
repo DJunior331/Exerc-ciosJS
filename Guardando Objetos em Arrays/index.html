@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardando Objetos</title>
+</head>
+<body>
+    <form>
+        <p>Nome:
+            <input type="text" id="inNome" required>
+        </p>
+    
+        <p>Sobrenome:
+            <input type="text" id="inSobrenome" required>
+        </p>
+    
+        <p>Peso:
+           <input type="number" id="inPeso" required>
+        </p>
+        <p>Altura:
+            <input type="number" id="inAltura" min="0.01" step="0.01" required>
+        </p>
+        <input type="submit">
+    </form>
+    <div id="resp"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
